@@ -1,0 +1,10 @@
+# add subdirectory
+add_subdirectory( common )
+add_subdirectory( datafuse )
+add_subdirectory( display )
+add_subdirectory( keyboard )
+add_subdirectory( network )
+add_subdirectory( objectdetect )
+add_subdirectory( objecttrack )
+add_subdirectory( synchronize )
+add_subdirectory( trajectorypredict )

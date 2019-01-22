@@ -1,0 +1,1 @@
+make -j8 >> makelog.txt 2>&1

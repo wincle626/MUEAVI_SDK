@@ -1,0 +1,1 @@
+cmake .. -DCMAKE_CXX_FLAGS='-std=c++11' -DINSTALL_LOCAL=ON >> cmakelog.txt 2>&1
