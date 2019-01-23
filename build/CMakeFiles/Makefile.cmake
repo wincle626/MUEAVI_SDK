@@ -226,6 +226,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/AddInstallRPATHSupport.cmake"
   "../cmake/AddUninstallTarget.cmake"
   "../cmake/BuildsystemFunctions.cmake"
+  "../cmake/FindDarkNet.cmake"
   "../cmake/FindEigen.cmake"
   "../cmake/FindJsonC.cmake"
   "../cmake/FindProtobuf.cmake"

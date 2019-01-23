@@ -172,6 +172,12 @@ message( "QuanergyClient header directory: ${QuanergyClient_INCLUDE_DIRS}" )
 message( "QuanergyClient library directory: ${QuanergyClient_LIBRARY_DIRS}" )
 message( "QuanergyClient library: ${QuanergyClient_LIBRARYS}" )
 #
+# DarkNet required
+find_package( DarkNet REQUIRED )
+message( "DarkNet header directory: ${DarkNet_INCLUDE_DIRS}" )
+message( "DarkNet library directory: ${DarkNet_LIBRARY_DIRS}" )
+message( "DarkNet library: ${DarkNet_LIBRARYS}" )
+#
 
 
 #------------------library installation------------------------
@@ -198,9 +204,9 @@ endif ()
 set( MUEAVISOFT_SRC
     devices/imu/imu.cpp
     devices/lidar/lidar.cpp
-    system/lidar/urg2d.cpp
-    system/lidar/urg3d.cpp
-    system/lidar/quanergym8.cpp
+    devices/lidar/urg2d.cpp
+    devices/lidar/urg3d.cpp
+    devices/lidar/quanergym8.cpp
     devices/ptzcam/ptzcam.cpp
     devices/radar/radar.cpp
     system/common/debug.cpp
@@ -263,6 +269,7 @@ target_include_directories( MUEAVISOFT_LIB
     PUBLIC ${UDT_INCLUDE_DIR}
     PUBLIC ${JSONC_INCLUDE_DIRS}
     PUBLIC ${QuanergyClient_INCLUDE_DIRS}
+    PUBLIC ${DarkNet_INCLUDE_DIRS}
 )
 target_link_libraries( MUEAVISOFT_LIB
     PUBLIC ${Boost_LIBRARIES}
@@ -274,12 +281,14 @@ target_link_libraries( MUEAVISOFT_LIB
     PUBLIC ${UDT_LIBRARYS}
     PUBLIC ${JSONC_LIBRARYS}
     PUBLIC ${QuanergyClient_LIBRARYS}
+    PUBLIC ${DarkNet_LIBRARYS}
     PUBLIC m
     PUBLIC pthread
     PUBLIC curl
     PUBLIC dl
     PUBLIC rt
     PUBLIC json-c
+    PUBLIC darknet
 )
 if ( BUILD_TEST )
     # build test binary

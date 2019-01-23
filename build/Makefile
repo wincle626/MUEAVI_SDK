@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK
+CMAKE_SOURCE_DIR = /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build
+CMAKE_BINARY_DIR = /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -254,6 +254,96 @@ devices/lidar/lidar.cpp.s:
 	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/lidar.cpp.s
 	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.s
 .PHONY : devices/lidar/lidar.cpp.s
+
+devices/lidar/quanergym8.o: devices/lidar/quanergym8.cpp.o
+
+.PHONY : devices/lidar/quanergym8.o
+
+# target to build an object file
+devices/lidar/quanergym8.cpp.o:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/quanergym8.cpp.o
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o
+.PHONY : devices/lidar/quanergym8.cpp.o
+
+devices/lidar/quanergym8.i: devices/lidar/quanergym8.cpp.i
+
+.PHONY : devices/lidar/quanergym8.i
+
+# target to preprocess a source file
+devices/lidar/quanergym8.cpp.i:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/quanergym8.cpp.i
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.i
+.PHONY : devices/lidar/quanergym8.cpp.i
+
+devices/lidar/quanergym8.s: devices/lidar/quanergym8.cpp.s
+
+.PHONY : devices/lidar/quanergym8.s
+
+# target to generate assembly for a file
+devices/lidar/quanergym8.cpp.s:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/quanergym8.cpp.s
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.s
+.PHONY : devices/lidar/quanergym8.cpp.s
+
+devices/lidar/urg2d.o: devices/lidar/urg2d.cpp.o
+
+.PHONY : devices/lidar/urg2d.o
+
+# target to build an object file
+devices/lidar/urg2d.cpp.o:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg2d.cpp.o
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o
+.PHONY : devices/lidar/urg2d.cpp.o
+
+devices/lidar/urg2d.i: devices/lidar/urg2d.cpp.i
+
+.PHONY : devices/lidar/urg2d.i
+
+# target to preprocess a source file
+devices/lidar/urg2d.cpp.i:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg2d.cpp.i
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.i
+.PHONY : devices/lidar/urg2d.cpp.i
+
+devices/lidar/urg2d.s: devices/lidar/urg2d.cpp.s
+
+.PHONY : devices/lidar/urg2d.s
+
+# target to generate assembly for a file
+devices/lidar/urg2d.cpp.s:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg2d.cpp.s
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.s
+.PHONY : devices/lidar/urg2d.cpp.s
+
+devices/lidar/urg3d.o: devices/lidar/urg3d.cpp.o
+
+.PHONY : devices/lidar/urg3d.o
+
+# target to build an object file
+devices/lidar/urg3d.cpp.o:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg3d.cpp.o
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o
+.PHONY : devices/lidar/urg3d.cpp.o
+
+devices/lidar/urg3d.i: devices/lidar/urg3d.cpp.i
+
+.PHONY : devices/lidar/urg3d.i
+
+# target to preprocess a source file
+devices/lidar/urg3d.cpp.i:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg3d.cpp.i
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.i
+.PHONY : devices/lidar/urg3d.cpp.i
+
+devices/lidar/urg3d.s: devices/lidar/urg3d.cpp.s
+
+.PHONY : devices/lidar/urg3d.s
+
+# target to generate assembly for a file
+devices/lidar/urg3d.cpp.s:
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg3d.cpp.s
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.s
+.PHONY : devices/lidar/urg3d.cpp.s
 
 devices/ptzcam/ptzcam.o: devices/ptzcam/ptzcam.cpp.o
 
@@ -585,36 +675,6 @@ system/network/pkg.cpp.s:
 	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.s
 .PHONY : system/network/pkg.cpp.s
 
-system/network/quanergym8.o: system/network/quanergym8.cpp.o
-
-.PHONY : system/network/quanergym8.o
-
-# target to build an object file
-system/network/quanergym8.cpp.o:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/quanergym8.cpp.o
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o
-.PHONY : system/network/quanergym8.cpp.o
-
-system/network/quanergym8.i: system/network/quanergym8.cpp.i
-
-.PHONY : system/network/quanergym8.i
-
-# target to preprocess a source file
-system/network/quanergym8.cpp.i:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/quanergym8.cpp.i
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.i
-.PHONY : system/network/quanergym8.cpp.i
-
-system/network/quanergym8.s: system/network/quanergym8.cpp.s
-
-.PHONY : system/network/quanergym8.s
-
-# target to generate assembly for a file
-system/network/quanergym8.cpp.s:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/quanergym8.cpp.s
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.s
-.PHONY : system/network/quanergym8.cpp.s
-
 system/network/socket.o: system/network/socket.cpp.o
 
 .PHONY : system/network/socket.o
@@ -704,66 +764,6 @@ system/network/udp.cpp.s:
 	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/udp.cpp.s
 	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.s
 .PHONY : system/network/udp.cpp.s
-
-system/network/urg2d.o: system/network/urg2d.cpp.o
-
-.PHONY : system/network/urg2d.o
-
-# target to build an object file
-system/network/urg2d.cpp.o:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/urg2d.cpp.o
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o
-.PHONY : system/network/urg2d.cpp.o
-
-system/network/urg2d.i: system/network/urg2d.cpp.i
-
-.PHONY : system/network/urg2d.i
-
-# target to preprocess a source file
-system/network/urg2d.cpp.i:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/urg2d.cpp.i
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.i
-.PHONY : system/network/urg2d.cpp.i
-
-system/network/urg2d.s: system/network/urg2d.cpp.s
-
-.PHONY : system/network/urg2d.s
-
-# target to generate assembly for a file
-system/network/urg2d.cpp.s:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/urg2d.cpp.s
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.s
-.PHONY : system/network/urg2d.cpp.s
-
-system/network/urg3d.o: system/network/urg3d.cpp.o
-
-.PHONY : system/network/urg3d.o
-
-# target to build an object file
-system/network/urg3d.cpp.o:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/urg3d.cpp.o
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o
-.PHONY : system/network/urg3d.cpp.o
-
-system/network/urg3d.i: system/network/urg3d.cpp.i
-
-.PHONY : system/network/urg3d.i
-
-# target to preprocess a source file
-system/network/urg3d.cpp.i:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/urg3d.cpp.i
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.i
-.PHONY : system/network/urg3d.cpp.i
-
-system/network/urg3d.s: system/network/urg3d.cpp.s
-
-.PHONY : system/network/urg3d.s
-
-# target to generate assembly for a file
-system/network/urg3d.cpp.s:
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_LIB.dir/build.make CMakeFiles/MUEAVISOFT_LIB.dir/system/network/urg3d.cpp.s
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.s
-.PHONY : system/network/urg3d.cpp.s
 
 test/test_all_thread.o: test/test_all_thread.cpp.o
 
@@ -1083,6 +1083,15 @@ help:
 	@echo "... devices/lidar/lidar.o"
 	@echo "... devices/lidar/lidar.i"
 	@echo "... devices/lidar/lidar.s"
+	@echo "... devices/lidar/quanergym8.o"
+	@echo "... devices/lidar/quanergym8.i"
+	@echo "... devices/lidar/quanergym8.s"
+	@echo "... devices/lidar/urg2d.o"
+	@echo "... devices/lidar/urg2d.i"
+	@echo "... devices/lidar/urg2d.s"
+	@echo "... devices/lidar/urg3d.o"
+	@echo "... devices/lidar/urg3d.i"
+	@echo "... devices/lidar/urg3d.s"
 	@echo "... devices/ptzcam/ptzcam.o"
 	@echo "... devices/ptzcam/ptzcam.i"
 	@echo "... devices/ptzcam/ptzcam.s"
@@ -1116,9 +1125,6 @@ help:
 	@echo "... system/network/pkg.o"
 	@echo "... system/network/pkg.i"
 	@echo "... system/network/pkg.s"
-	@echo "... system/network/quanergym8.o"
-	@echo "... system/network/quanergym8.i"
-	@echo "... system/network/quanergym8.s"
 	@echo "... system/network/socket.o"
 	@echo "... system/network/socket.i"
 	@echo "... system/network/socket.s"
@@ -1128,12 +1134,6 @@ help:
 	@echo "... system/network/udp.o"
 	@echo "... system/network/udp.i"
 	@echo "... system/network/udp.s"
-	@echo "... system/network/urg2d.o"
-	@echo "... system/network/urg2d.i"
-	@echo "... system/network/urg2d.s"
-	@echo "... system/network/urg3d.o"
-	@echo "... system/network/urg3d.i"
-	@echo "... system/network/urg3d.s"
 	@echo "... test/test_all_thread.o"
 	@echo "... test/test_all_thread.i"
 	@echo "... test/test_all_thread.s"

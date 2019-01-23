@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK
+CMAKE_SOURCE_DIR = /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build
+CMAKE_BINARY_DIR = /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MUEAVISOFT_TEST.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o: ../test/test_all_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_all_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_all_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_all_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_all_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_all_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_all_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o: ../test/test_client_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_client_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_client_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_client_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_client_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_client_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_client_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o.provides.build: CMa
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o: ../test/test_imu_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_imu_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_imu_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_imu_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_imu_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_imu_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_imu_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o: ../test/test_lidar_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_lidar_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_lidar_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_lidar_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_lidar_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_lidar_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_lidar_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o.provides.build: CMak
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o: ../test/test_nas_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_nas_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_nas_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_nas_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_nas_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_nas_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_nas_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o: ../test/test_ptzcam_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_ptzcam_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_ptzcam_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_ptzcam_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_ptzcam_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_ptzcam_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_ptzcam_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o.provides.build: CMa
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o: ../test/test_radar_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_radar_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_radar_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_radar_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_radar_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_radar_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_radar_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o.provides.build: CMak
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o: ../test/test_server_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_server_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_server_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_server_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_server_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_server_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_server_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o.provides.build: CMa
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o: ../test/test_tcp_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_tcp_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_tcp_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_tcp_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_tcp_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_tcp_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_tcp_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o: ../test/test_udp_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_udp_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_udp_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_udp_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_udp_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_udp_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_udp_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o: ../test/test_udt_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_udt_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_udt_thread.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_udt_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_udt_thread.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/test/test_udt_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/test/test_udt_thread.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o: ../devices/imu/imu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/imu/imu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/imu/imu.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/imu/imu.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/imu/imu.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/imu/imu.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/imu/imu.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o: ../devices/lidar/lidar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/lidar/lidar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/lidar.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/lidar/lidar.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/lidar.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/lidar/lidar.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/lidar.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o.requires:
 
@@ -369,18 +369,90 @@ CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o.provides: CMakeFiles/MU
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o
 
 
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o: ../devices/lidar/urg2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/urg2d.cpp
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/urg2d.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.i
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/urg2d.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.s
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.requires:
+
+.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.requires
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.provides: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.provides.build
+.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.provides
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o
+
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o: ../devices/lidar/urg3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/urg3d.cpp
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/urg3d.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.i
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/urg3d.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.s
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.requires:
+
+.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.requires
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.provides: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.provides.build
+.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.provides
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o
+
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o: ../devices/lidar/quanergym8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/quanergym8.cpp
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/quanergym8.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.i
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/lidar/quanergym8.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.s
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.requires:
+
+.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.requires
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.provides: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.provides.build
+.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.provides
+
+CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o
+
+
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o: ../devices/ptzcam/ptzcam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/ptzcam/ptzcam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/ptzcam/ptzcam.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/ptzcam/ptzcam.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/ptzcam/ptzcam.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/ptzcam/ptzcam.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/ptzcam/ptzcam.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o.requires:
 
@@ -395,16 +467,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o.provides.build: CMake
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o: ../devices/radar/radar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/radar/radar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/radar/radar.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/radar/radar.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/radar/radar.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/devices/radar/radar.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/radar/radar.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o.requires:
 
@@ -419,16 +491,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o: ../system/common/debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/debug.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/debug.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/debug.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/debug.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/debug.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o.requires:
 
@@ -443,16 +515,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o: ../system/common/mathformat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/mathformat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/mathformat.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/mathformat.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/mathformat.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/mathformat.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/mathformat.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o.requires:
 
@@ -467,16 +539,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o.provides.build: CM
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o: ../system/common/file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/file.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/file.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/file.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/file.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/file.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o.requires:
 
@@ -491,16 +563,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o: ../system/common/system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/system.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/system.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/system.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/system.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/system.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o.requires:
 
@@ -515,16 +587,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o.provides.build: CMakeF
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o: ../system/common/visualizer_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/visualizer_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/visualizer_module.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/visualizer_module.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/visualizer_module.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/common/visualizer_module.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/common/visualizer_module.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o.requires:
 
@@ -539,16 +611,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o.provides.bu
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o: ../system/keyboard/key.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/keyboard/key.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/keyboard/key.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/keyboard/key.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/keyboard/key.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/keyboard/key.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/keyboard/key.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o.requires:
 
@@ -563,16 +635,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o: ../system/network/curl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/curl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/curl.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/curl.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/curl.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/curl.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/curl.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o.requires:
 
@@ -587,16 +659,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o: ../system/network/nas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/nas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/nas.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/nas.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/nas.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/nas.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/nas.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o.requires:
 
@@ -611,16 +683,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o: ../system/network/pkg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/pkg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/pkg.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/pkg.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/pkg.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/pkg.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/pkg.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o.requires:
 
@@ -635,16 +707,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o: ../system/network/socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/socket.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/socket.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/socket.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/socket.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/socket.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o.requires:
 
@@ -659,16 +731,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o.provides.build: CMake
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o: ../system/network/tcp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/tcp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/tcp.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/tcp.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/tcp.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/tcp.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/tcp.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o.requires:
 
@@ -683,16 +755,16 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o: ../system/network/udp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/udp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o -c /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/udp.cpp
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/udp.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/udp.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.i
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/udp.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/network/udp.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.s
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o.requires:
 
@@ -703,78 +775,6 @@ CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o.provides: CMakeFiles/MUE
 .PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o.provides
 
 CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o
-
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o: ../system/network/urg2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/urg2d.cpp
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/urg2d.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.i
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/urg2d.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.s
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.requires:
-
-.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.requires
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.provides: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.provides.build
-.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.provides
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o
-
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o: ../system/network/urg3d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/urg3d.cpp
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/urg3d.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.i
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/urg3d.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.s
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.requires:
-
-.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.requires
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.provides: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.provides.build
-.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.provides
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o
-
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o: CMakeFiles/MUEAVISOFT_TEST.dir/flags.make
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o: ../system/network/quanergym8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o -c /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/quanergym8.cpp
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/quanergym8.cpp > CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.i
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/system/network/quanergym8.cpp -o CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.s
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.requires:
-
-.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.requires
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.provides: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MUEAVISOFT_TEST.dir/build.make CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.provides.build
-.PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.provides
-
-CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.provides.build: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o
 
 
 # Object files for target MUEAVISOFT_TEST
@@ -792,6 +792,9 @@ MUEAVISOFT_TEST_OBJECTS = \
 "CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o" \
+"CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o" \
+"CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o" \
+"CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o" \
@@ -805,10 +808,7 @@ MUEAVISOFT_TEST_OBJECTS = \
 "CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o" \
 "CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o" \
-"CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o" \
-"CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o" \
-"CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o" \
-"CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o"
+"CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o"
 
 # External object files for target MUEAVISOFT_TEST
 MUEAVISOFT_TEST_EXTERNAL_OBJECTS =
@@ -826,6 +826,9 @@ MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o
+MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o
+MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o
+MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o
@@ -840,9 +843,6 @@ MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o
-MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o
-MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o
-MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/build.make
 MUEAVISOFT_TEST: /usr/lib/x86_64-linux-gnu/libboost_system.so
 MUEAVISOFT_TEST: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -1152,7 +1152,7 @@ MUEAVISOFT_TEST: /home/mueavi-pc-01/HumanDrive/VTK/VTK-8.1.1/install/lib/libvtkl
 MUEAVISOFT_TEST: /home/mueavi-pc-01/HumanDrive/VTK/VTK-8.1.1/install/lib/libvtkCommonCore-8.1.so.1
 MUEAVISOFT_TEST: /home/mueavi-pc-01/HumanDrive/VTK/VTK-8.1.1/install/lib/libvtksys-8.1.so.1
 MUEAVISOFT_TEST: CMakeFiles/MUEAVISOFT_TEST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable MUEAVISOFT_TEST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable MUEAVISOFT_TEST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MUEAVISOFT_TEST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1173,6 +1173,9 @@ CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/test/tes
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o.requires
+CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o.requires
+CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o.requires
+CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o.requires
@@ -1187,9 +1190,6 @@ CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/n
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o.requires
 CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o.requires
-CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg2d.cpp.o.requires
-CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/urg3d.cpp.o.requires
-CMakeFiles/MUEAVISOFT_TEST.dir/requires: CMakeFiles/MUEAVISOFT_TEST.dir/system/network/quanergym8.cpp.o.requires
 
 .PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/requires
 
@@ -1198,6 +1198,6 @@ CMakeFiles/MUEAVISOFT_TEST.dir/clean:
 .PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/clean
 
 CMakeFiles/MUEAVISOFT_TEST.dir/depend:
-	cd /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK/build/CMakeFiles/MUEAVISOFT_TEST.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/CMakeFiles/MUEAVISOFT_TEST.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MUEAVISOFT_TEST.dir/depend
 
