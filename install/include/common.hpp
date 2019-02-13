@@ -20,17 +20,15 @@
 #include <errno.h>
 #include <unistd.h>
 #include <time.h>
-#include <string>
-#include <sstream>
-#include <fstream>
-#include <iostream>
-#include <cstdlib>
 #include <pthread.h>
-#include <thread>
 #include <stdexcept>
+#include <netdb.h>
+#include <signal.h>
+#include <fcntl.h>
 #include <arpa/inet.h>
 #include <linux/serial.h>
 #include <linux/ioctl.h>
+#include <netinet/in.h>
 #include <sys/ioctl.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
@@ -38,12 +36,28 @@
 #include <sys/resource.h>
 #include <sys/time.h>
 
+#include <thread>
+#include <string>     // std::string, std::to_string
+#include <sstream>
+#include <fstream>
+#include <iostream>
+#include <cstdlib>
+#include <cstring>
+#include <algorithm>
+#include <exception>         // For exception class
+#include <string>            // For string
+#include <cstdio>
+#include <memory>
+#include <stdexcept>
+#include <array>
+#include <mutex>
+
 // debug macro
-#define DEBUG
-#define PRINT_DEFAUT_SETTING
+//#define DEBUG
+// #define PRINT_DEFAUT_SETTING
 //#define PRINT_FUNC
-//#define PRINT_FILE_LINE
-//#define PRINT_DATE_TIME
+// #define PRINT_FILE_LINE
+// #define PRINT_DATE_TIME
 
 // profiling macro
 #define PROFILING_TIME

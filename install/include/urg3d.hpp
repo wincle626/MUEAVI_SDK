@@ -9,6 +9,7 @@
 #define SRC_HEADERS_URG3D_HPP_
 
 #include "common.hpp"
+#include "debug.hpp"
 #include <urg3d_sensor.h>
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
@@ -22,12 +23,18 @@ public:
 	pthread_mutex_t Urg3dpkgAccessMuxid;
 	int blockfunctimeout = 2000; // ms
 	int frameinterval = 10000; // ms
+    int interlacecount = 4; // 1 -> 20 Hz, 4 -> 5 Hz
 	bool rangeswith = false;
 	bool intensityswith = false;
 	bool auxilaryswith = false;
 	urg3d();
 	urg3d(std::string addr, long int port);
 	~urg3d();
+    std::string get_connect_address_urg3d();
+    urg3d_t *geturg3dstruct();
+    int get_connect_port_urg3d();
+    int getmeasdatasizeurg3d();
+    int getauxidatasizeurg3d();
 	void connectsensor();
 	void disconnectsensor();
 	void setblockfunctimeout(int timeout);
@@ -35,11 +42,14 @@ public:
 	void setrangeswitch(bool flag);
 	void setintensityswith(bool flag);
 	void setauxilaryswith(bool flag);
+    void setconnectipaddress(std::string ip);
+    void setconnectport(int p);
 	void initsensor();
 	void startdatastream();
 	void stopdatastream();
 	void measuresingledataframe();
 	void auxilarysingledataframe();
+    void urg3d_pcl_display();
 private:
 	urg3d_t *urg_urg3d;
 	std::string connect_address_urg3d = std::string("10.42.0.10");
@@ -52,7 +62,6 @@ protected:
 	urg3d_measurement_data_t *meas_data_urg3d;
 	urg3d_auxilary_data_t* auxi_data_urg3d;
 };
-
 
 
 #endif /* SRC_HEADERS_URG3D_HPP_ */

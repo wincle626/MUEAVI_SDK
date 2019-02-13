@@ -1,4 +1,4 @@
-# Install script for directory: /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/system/display
+# Install script for directory: /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/system/display
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

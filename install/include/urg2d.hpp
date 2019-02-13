@@ -9,6 +9,7 @@
 #define SRC_HEADERS_URG2D_HPP_
 
 #include "common.hpp"
+#include "debug.hpp"
 #include <urg_c/urg_sensor.h>
 #include <urg_c/urg_utils.h>
 

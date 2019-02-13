@@ -1,4 +1,4 @@
-# Install script for directory: /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices
+# Install script for directory: /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/devices
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/devices/imu/cmake_install.cmake")
-  include("/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/devices/ptzcam/cmake_install.cmake")
-  include("/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/devices/lidar/cmake_install.cmake")
-  include("/home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/build/devices/radar/cmake_install.cmake")
+  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/devices/imu/cmake_install.cmake")
+  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/devices/ptzcam/cmake_install.cmake")
+  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/devices/lidar/cmake_install.cmake")
+  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/devices/radar/cmake_install.cmake")
 
 endif()
 

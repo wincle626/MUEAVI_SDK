@@ -50,6 +50,7 @@
 #include <memory>
 #include <stdexcept>
 #include <array>
+#include <mutex>
 
 // debug macro
 //#define DEBUG

@@ -27,6 +27,9 @@
 #include "opencv2/opencv_modules.hpp"
 #include "opencv2/calib3d/calib3d.hpp"
 
+#include <pcl/point_types.h>
+#include <pcl/point_cloud.h>
+
 #include "curl.hpp"
 #include "key.hpp"
 #include "debug.hpp"
@@ -36,13 +39,13 @@
 class ptzcam : public curl, public key{
 public:
 	pthread_t PTZDataThreadID=0;
-	pthread_t PTZDisplayThreadID=0;
+    pthread_t PTZTestDisplayThreadID=0;
 	pthread_t PTZControlThreadID=0;
 	pthread_mutex_t pkgAccessMuxid;
 	ptzcam();
 	ptzcam(std::string u, std::string p, std::string ip);
 	~ptzcam();
-	void setcamip(char *ip);
+	void setcamip(char *p);
 	void setport(int port);
 	void setuser(char *user);
 	void setpwd(char *pwd);
@@ -50,13 +53,25 @@ public:
 	void capture_cv();
 	void capture_release();
 	void capture_cvframe();
-	void release_cvframe();
+    void rawdata2cvframe();
+	void capture_cvframe_size();
+    void *display_cvframe();
+    void release_cvframe();
 	void capture_snapshot();
 	void *test_cvdisplay();
-	void cvframe2rawdata();
+    void *test_rawdisplay();
+    void cvframe2rawdata();
+    void setrawdata(unsigned char* data);
+    void setframewidth(int w);
+    void setframeheight(int h);
+    void pclbgrpointgen(pcl::PointXYZRGB &brgpoint, int i, int j);
+    void pclbgrdatagren(pcl::PointCloud<pcl::PointXYZRGB>::Ptr &colored_point_cloud_ptr);
+    void cvframe2pclrbgdata();
 	void setrawdatatime(unsigned char timebytes[4]);
 	void snapshotjgpdata();
 	void setjpgdatatime(unsigned char timebytes[4]);
+	void setcvcap(cv::VideoCapture cvcap);
+	void setcvframe(cv::Mat cvframe);
 	void ptzleft();
 	void ptzright();
 	void ptzup();
@@ -81,6 +96,7 @@ public:
 	int getframeheight();
 	int getframewidth();
 	int getport();
+    int getrawdatasize();
 	std::string getusername();
 	std::string getpassword();
 	std::string getipaddr();
@@ -94,14 +110,15 @@ public:
 	std::string getvideosource();
 	std::string getptzsource();
 	std::string getptzurl();
-	cv::VideoCapture *getcvcap();
-	cv::Mat *getcvframe();
+	cv::VideoCapture getcvcap();
+	cv::Mat getcvframe();
 	unsigned char* getjpgdata();
 	unsigned char* getrawdata();
 	unsigned char* getnaludata();
 
 
 private:
+	bool frame_size_captured = false;
 	int frame_height=0;
 	int frame_width=0;
 	int port=80;
@@ -123,11 +140,12 @@ private:
 protected:
 	cv::VideoCapture cv_cap;
 	cv::Mat cv_frame;
+    int raw_data_size=0;
 	unsigned char* jpg_data=NULL;
 	unsigned char* raw_data=NULL;
-	unsigned char* nalu_data=NULL;
+    unsigned char* nalu_data=NULL;
 };
 
-void *display_pthread(void *context);
+void *testdisplay_pthread(void *context);
 void *ptz_pthread(void *context);
 #endif /* SRC_HEADERS_PTZCAM_HPP_ */

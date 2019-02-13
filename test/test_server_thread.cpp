@@ -6,7 +6,7 @@
  */
 
 #include "test_server_thread.hpp"
-
+/*
 void *data_receive_ptzcam_thread(void *p){
 
     // initiate udt
@@ -71,4 +71,9 @@ void *test_server_thread(void *p){
     data_receive(dev_ptzcam);
 
     return NULL;
+}
+*/
+
+void *test_server_thread(void *p){
+    
 }

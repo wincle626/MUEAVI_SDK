@@ -1,4 +1,4 @@
-# Install script for directory: /home/mueavi-pc-01/workspaces/gitworkspace/MUEAVI_SDK/devices/ptzcam
+# Install script for directory: /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/devices/ptzcam
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -172,12 +172,6 @@ message( "QuanergyClient header directory: ${QuanergyClient_INCLUDE_DIRS}" )
 message( "QuanergyClient library directory: ${QuanergyClient_LIBRARY_DIRS}" )
 message( "QuanergyClient library: ${QuanergyClient_LIBRARYS}" )
 #
-# DarkNet required
-find_package( DarkNet REQUIRED )
-message( "DarkNet header directory: ${DarkNet_INCLUDE_DIRS}" )
-message( "DarkNet library directory: ${DarkNet_LIBRARY_DIRS}" )
-message( "DarkNet library: ${DarkNet_LIBRARYS}" )
-#
 
 
 #------------------library installation------------------------
@@ -250,6 +244,7 @@ set( MUEAVISOFT_INC
     headers/urg3d.hpp
     headers/quanergym8.hpp
     headers/visualizer_module.hpp
+    headers/pcl_pointxyzir.hpp
 )
 add_library( MUEAVISOFT_LIB SHARED
     ${MUEAVISOFT_SRC} ${MUEAVISOFT_INC}
@@ -269,7 +264,6 @@ target_include_directories( MUEAVISOFT_LIB
     PUBLIC ${UDT_INCLUDE_DIR}
     PUBLIC ${JSONC_INCLUDE_DIRS}
     PUBLIC ${QuanergyClient_INCLUDE_DIRS}
-    PUBLIC ${DarkNet_INCLUDE_DIRS}
 )
 target_link_libraries( MUEAVISOFT_LIB
     PUBLIC ${Boost_LIBRARIES}
@@ -281,14 +275,12 @@ target_link_libraries( MUEAVISOFT_LIB
     PUBLIC ${UDT_LIBRARYS}
     PUBLIC ${JSONC_LIBRARYS}
     PUBLIC ${QuanergyClient_LIBRARYS}
-    PUBLIC ${DarkNet_LIBRARYS}
     PUBLIC m
     PUBLIC pthread
     PUBLIC curl
     PUBLIC dl
     PUBLIC rt
     PUBLIC json-c
-    PUBLIC darknet
 )
 if ( BUILD_TEST )
     # build test binary

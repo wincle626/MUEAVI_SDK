@@ -19,6 +19,7 @@ class imu{
 		pthread_t RevSeriesPkgDisableThreadId=0;
 		pthread_mutex_t IMUpkgAccessMuxid;
 		bool startstop=false;
+        int done = 0;
 		imu();
 		imu(char* p, unsigned int b);
 		~imu();
@@ -56,6 +57,7 @@ class imu{
 		void setBaudrate(unsigned int b);
 		void setSeriesPortBaudrate();
 		void *revIMUSeriesData();
+        void *revIMUFrameData();
 		void setEnableimurx(bool flag);
 		void *enableimurx();
 		void *disableimurx();

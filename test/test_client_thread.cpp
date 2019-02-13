@@ -6,7 +6,7 @@
  */
 
 #include "test_client_thread.hpp"
-
+/*
 void *acquire_imu_frame_thread(void *p){
 ENTER_FUNC
     ((imu *)p)->openPort();
@@ -31,18 +31,18 @@ void *acquire_lidarm8_frame_thread(void *p){
     return NULL;
 }
 
-void data_acquire(imu *dev_imu, ptzcam *dev_ptzcam, quanergym8 *dev_lidarm8){
+void data_acquire(imu &dev_imu, ptzcam &dev_ptzcam, quanergym8 &dev_lidarm8){
 ENTER_FUNC
     // data acquiring threads
-    //pthread_t dev_imu_thread_id;
+    pthread_t dev_imu_thread_id;
     pthread_t dev_ptzcam_thread_id;
     pthread_t dev_lidarm8_thread_id;
 
     // acquiring GPS time
-    /*int err1 = pthread_create(&dev_imu_thread_id, NULL, &acquire_imu_frame_thread, dev_imu);
+    int err1 = pthread_create(&dev_imu_thread_id, NULL, &acquire_imu_frame_thread, dev_imu);
     if(err1){
         std::cout << "failed to create GPS thread" << std::endl;
-    }*/
+    }
 
     // acquiring Camera data
     int err2 = pthread_create(&dev_ptzcam_thread_id, NULL, &acquire_ptzcam_frame_thread, dev_ptzcam);
@@ -59,7 +59,7 @@ ENTER_FUNC
     // acquiring Radar data
 
     // joint the threads
-    //pthread_join(dev_imu_thread_id, NULL);
+    pthread_join(dev_imu_thread_id, NULL);
     pthread_join(dev_ptzcam_thread_id, NULL);
     pthread_join(dev_lidarm8_thread_id, NULL);
  EXIT_FUNC
@@ -102,7 +102,7 @@ ENTER_FUNC
 EXIT_FUNC
 }
 
-void data_transmit(imu *dev_imu, ptzcam *dev_ptzcam, quanergym8 *dev_lidarm8){
+void data_transmit(imu &dev_imu, ptzcam &dev_ptzcam, quanergym8 &dev_lidarm8){
 ENTER_FUNC
     // get time stamp
     // float timestamp = dev_imu->getTIME();
@@ -141,10 +141,10 @@ void *test_client_thread(void *p){
 ENTER_FUNC
 
     // initiate device
-    imu *dev_imu = new imu();
-    ptzcam *dev_ptzcam = new ptzcam();
+    imu dev_imu = new imu();
+    ptzcam dev_ptzcam = new ptzcam();
     dev_ptzcam->setcamip((char*)"192.168.57.61");
-    quanergym8 *dev_lidarm8 = new quanergym8(4141, 100, 2, "192.168.57.141");
+    quanergym8 dev_lidarm8 = new quanergym8(4141, 100, 2, "192.168.57.141");
 
     // data acquiring
     data_acquire(dev_imu, dev_ptzcam, dev_lidarm8);
@@ -154,4 +154,10 @@ ENTER_FUNC
 
  EXIT_FUNC
     return NULL;
+}
+
+*/
+
+void *test_client_thread(void *p){
+
 }
