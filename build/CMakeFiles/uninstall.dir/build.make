@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1
+CMAKE_SOURCE_DIR = /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build
+CMAKE_BINARY_DIR = /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEA
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1 /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1 /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2 /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2 /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

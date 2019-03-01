@@ -92,7 +92,7 @@ void *control_thread(void *p){
 void *test_m8_thread(void *p){
 
 	// port number; queue number, return number, ip address
-	quanergym8 dev_m8(4141, 100, 2, "192.168.57.141");
+	quanergym8 dev_m8(4141, 100, 2, "192.168.57.162");
 
 	pthread_t tid1;
 	pthread_t tid2;

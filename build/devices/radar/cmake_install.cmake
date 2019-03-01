@@ -1,4 +1,4 @@
-# Install script for directory: /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/devices/radar
+# Install script for directory: /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/devices/radar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

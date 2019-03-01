@@ -132,27 +132,29 @@ void quanergym8::updatedata(boost::shared_ptr<pcl::PointCloud<quanergy::PointXYZ
 			pc3 = pc2.at(j);
 			if(pc3.x==pc3.x){
 				this->m8pcldata.push_back(pc3);
+                // std::cout << pc3.x << std::endl;
 			}
 		}
 		/*uint size = this->m8pcldata.size();
 		//std::cout << "point cloud number: " << size << std::endl;
-		this->m8datasize = size * 5 * sizeof(float);
+		this->m8datasize = (size * 5) + 4 * sizeof(float);
 		this->m8xyzirdata = NULL;
-		this->m8xyzirdata = (char*) realloc(this->m8xyzirdata, size*5*sizeof(float));
+		this->m8xyzirdata = (char*) realloc(this->m8xyzirdata, (size*5+4)*sizeof(float));
 		float *data = (float *) malloc(size*5*sizeof(float));
 		for(uint j=0;j<size;j++){
-			data[j*5] = (float)this->m8pcldata.at(j).x;
-			data[j*5+1] = (float)this->m8pcldata.at(j).y;
-			data[j*5+2] = (float)this->m8pcldata.at(j).z;
-			data[j*5+3] = (float)this->m8pcldata.at(j).intensity;
-			data[j*5+4] = (float)this->m8pcldata.at(j).ring;
+			data[j*5+4] = (float)this->m8pcldata.at(j).x;
+			data[j*5+5] = (float)this->m8pcldata.at(j).y;
+			data[j*5+6] = (float)this->m8pcldata.at(j).z;
+			data[j*5+7] = (float)this->m8pcldata.at(j).intensity;
+			data[j*5+8] = (float)this->m8pcldata.at(j).ring;
 		}
-		memcpy(this->m8xyzirdata,data,size*5*sizeof(float));*/
+		memcpy(this->m8xyzirdata,data,(size*5+4)*sizeof(float));*/
 	}
 }
 
 void quanergym8::m8datareveiver(){
 
+    std::cout << this->ipaddress << ":" << std::to_string(this->dataportnum) << endl;
 	ClientType m8client(this->ipaddress, std::to_string(this->dataportnum), this->queuenum);
 	ParserModuleType parser;
 	ConverterType converter;
@@ -185,12 +187,10 @@ void quanergym8::m8datareveiver(){
 #else
 	this->connections.push_back(converter.connect([&cloud_count, this](const ConverterType::ResultType& pc)
 	{
-
 #endif
 #if(WITH_VIS==1)
-    		if(this->m8visonoffflag==1){
+    		if(this->m8visonoffflag==1)
 				visualizer.slot(pc);
-    		}
 #endif
 			this->updatedata((boost::shared_ptr<pcl::PointCloud<quanergy::PointXYZIR>>&)pc);
 		}));
@@ -233,7 +233,8 @@ void quanergym8::m8datareveiver(){
 		        state = State::OFF;
 		        this->m8onoffflag = 0;
 #if(WITH_VIS==1)
-		        visualizer.stop();
+	            if(this->m8visonoffflag==1)
+		            visualizer.stop();
 #endif
 			}
 		}
@@ -321,18 +322,18 @@ pcl::PointCloud<quanergy::PointXYZIR> quanergym8::getm8pointcloud(){
 char* quanergym8::getm8data(){
 	std::lock_guard<std::mutex> rdlk(this->m8_dataread_mutex);
 	uint size = this->m8pcldata.size();
-	uint dsize = size*5*sizeof(float);
+	uint dsize = (size*5+4)*sizeof(float);
 	if(size>22000){
 		this->m8datasize = dsize;
 		this->m8xyzirdata = NULL;
 		this->m8xyzirdata = (char*) realloc(this->m8xyzirdata, dsize);
 		float *data = (float*) this->m8xyzirdata;
 		for(uint j=0;j<size;j++){
-			data[j*5] = (float)this->m8pcldata.at(j).x;
-			data[j*5+1] = (float)this->m8pcldata.at(j).y;
-			data[j*5+2] = (float)this->m8pcldata.at(j).z;
-			data[j*5+3] = (float)this->m8pcldata.at(j).intensity;
-			data[j*5+4] = (float)this->m8pcldata.at(j).ring;
+			data[j*5+4] = (float)this->m8pcldata.at(j).x;
+			data[j*5+5] = (float)this->m8pcldata.at(j).y;
+			data[j*5+6] = (float)this->m8pcldata.at(j).z;
+			data[j*5+7] = (float)this->m8pcldata.at(j).intensity;
+			data[j*5+8] = (float)this->m8pcldata.at(j).ring;
 		}
 	}
 	return this->m8xyzirdata;

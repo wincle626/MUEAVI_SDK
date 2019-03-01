@@ -1,4 +1,4 @@
-# Install script for directory: /home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/system
+# Install script for directory: /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/common/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/datafuse/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/display/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/keyboard/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/network/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/objectdetect/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/objecttrack/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/synchronize/cmake_install.cmake")
-  include("/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/system/trajectorypredict/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/common/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/datafuse/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/display/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/keyboard/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/network/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/objectdetect/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/objecttrack/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/synchronize/cmake_install.cmake")
+  include("/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/system/trajectorypredict/cmake_install.cmake")
 
 endif()
 

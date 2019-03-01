@@ -1,0 +1,478 @@
+Scanning dependencies of target MUEAVISOFT_LIB
+[  1%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/imu/imu.cpp.o
+[  3%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg2d.cpp.o
+[  5%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/quanergym8.cpp.o
+[  7%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/lidar.cpp.o
+[  9%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/lidar/urg3d.cpp.o
+[ 11%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/radar/radar.cpp.o
+[ 13%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/devices/ptzcam/ptzcam.cpp.o
+Scanning dependencies of target MUEAVISOFT_TEST
+[ 15%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_all_thread.cpp.o
+[ 17%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_client_thread.cpp.o
+[ 19%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_imu_thread.cpp.o
+[ 21%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/common/debug.cpp.o
+[ 23%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_lidar_thread.cpp.o
+[ 25%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_nas_thread.cpp.o
+[ 27%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/common/mathformat.cpp.o
+[ 29%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_ptzcam_thread.cpp.o
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/devices/ptzcam/ptzcam.cpp: In member function ‘void ptzcam::setrawdata(unsigned char*)’:
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/devices/ptzcam/ptzcam.cpp:376:12: warning: ignoring return value of ‘void* realloc(void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+     realloc( this->raw_data, sizeof(char)*this->frame_height
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             *this->frame_width*3+4 );
+             ~~~~~~~~~~~~~~~~~~~~~~~~
+[ 31%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_radar_thread.cpp.o
+[ 33%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/common/file.cpp.o
+[ 35%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_server_thread.cpp.o
+[ 37%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/common/system.cpp.o
+[ 39%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_tcp_thread.cpp.o
+[ 41%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/common/visualizer_module.cpp.o
+[ 43%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udp_thread.cpp.o
+[ 45%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/keyboard/key.cpp.o
+[ 47%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/test/test_udt_thread.cpp.o
+[ 49%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/network/curl.cpp.o
+[ 50%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/network/nas.cpp.o
+[ 52%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/network/pkg.cpp.o
+[ 54%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/imu/imu.cpp.o
+[ 56%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/lidar.cpp.o
+[ 58%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg2d.cpp.o
+[ 60%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/urg3d.cpp.o
+[ 62%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/network/socket.cpp.o
+In file included from /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/udp.hpp:13:0,
+                 from /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/pkg.hpp:14,
+                 from /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/pkg.cpp:8:
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:55:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   std::string getLocalAddress() throw(SocketException);
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:62:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   unsigned short getLocalPort() throw(SocketException);
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:70:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setLocalPort(unsigned short localPort) throw(SocketException);
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:81:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short localPort = 0) throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:96:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   static void cleanUp() throw(SocketException);
+                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:114:34: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   Socket(int type, int protocol) throw(SocketException);
+                                  ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:131:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException);
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:140:48: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void send(const void *buffer, int bufferLen) throw(SocketException);
+                                                ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:150:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   int recv(void *buffer, int bufferLen) throw(SocketException);
+                                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:157:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   std::string getForeignAddress() throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:164:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   unsigned short getForeignPort() throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:167:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   CommunicatingSocket(int type, int protocol) throw(SocketException);
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:180:15: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   TCPSocket() throw(SocketException);
+               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:190:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:213:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:225:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       int queueLen = 5) throw(SocketException);
+                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:232:23: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   TCPSocket *accept() throw(SocketException);
+                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:235:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setListen(int queueLen) throw(SocketException);
+                                ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:247:15: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   UDPSocket() throw(SocketException);
+               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:254:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   UDPSocket(unsigned short localPort) throw(SocketException);
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:263:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:270:21: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void disconnect() throw(SocketException);
+                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:283:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+             unsigned short foreignPort) throw(SocketException);
+                                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:296:44: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                unsigned short &sourcePort) throw(SocketException);
+                                            ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:303:52: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setMulticastTTL(unsigned char multicastTTL) throw(SocketException);
+                                                    ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:310:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void joinGroup(const std::string &multicastGroup) throw(SocketException);
+                                                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:317:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void leaveGroup(const std::string &multicastGroup) throw(SocketException);
+                                                      ^~~~~
+In file included from /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:9:0:
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:55:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   std::string getLocalAddress() throw(SocketException);
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:62:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   unsigned short getLocalPort() throw(SocketException);
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:70:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setLocalPort(unsigned short localPort) throw(SocketException);
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:81:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short localPort = 0) throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:96:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   static void cleanUp() throw(SocketException);
+                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:114:34: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   Socket(int type, int protocol) throw(SocketException);
+                                  ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:131:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException);
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:140:48: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void send(const void *buffer, int bufferLen) throw(SocketException);
+                                                ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:150:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   int recv(void *buffer, int bufferLen) throw(SocketException);
+                                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:157:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   std::string getForeignAddress() throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:164:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   unsigned short getForeignPort() throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:167:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   CommunicatingSocket(int type, int protocol) throw(SocketException);
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:180:15: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   TCPSocket() throw(SocketException);
+               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:190:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:213:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:225:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       int queueLen = 5) throw(SocketException);
+                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:232:23: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   TCPSocket *accept() throw(SocketException);
+                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:235:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setListen(int queueLen) throw(SocketException);
+                                ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:247:15: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   UDPSocket() throw(SocketException);
+               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:254:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   UDPSocket(unsigned short localPort) throw(SocketException);
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:263:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:270:21: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void disconnect() throw(SocketException);
+                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:283:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+             unsigned short foreignPort) throw(SocketException);
+                                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:296:44: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                unsigned short &sourcePort) throw(SocketException);
+                                            ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:303:52: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setMulticastTTL(unsigned char multicastTTL) throw(SocketException);
+                                                    ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:310:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void joinGroup(const std::string &multicastGroup) throw(SocketException);
+                                                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:317:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void leaveGroup(const std::string &multicastGroup) throw(SocketException);
+                                                      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:47:40: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ Socket::Socket(int type, int protocol) throw(SocketException) {
+                                        ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:80:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ std::string Socket::getLocalAddress() throw(SocketException) {
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:90:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ unsigned short Socket::getLocalPort() throw(SocketException) {
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:100:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void Socket::setLocalPort(unsigned short localPort) throw(SocketException) {
+                                                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:114:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short localPort) throw(SocketException) {
+                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:124:24: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void Socket::cleanUp() throw(SocketException) {
+                        ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:145:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : Socket(type, protocol) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:152:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short foreignPort) throw(SocketException) {
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:164:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:171:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:181:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:191:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ unsigned short CommunicatingSocket::getForeignPort() throw(SocketException) {
+                                                      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:204:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : CommunicatingSocket(SOCK_STREAM,
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:209:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : CommunicatingSocket(SOCK_STREAM, IPPROTO_TCP) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:219:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : Socket(SOCK_STREAM, IPPROTO_TCP) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:226:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : Socket(SOCK_STREAM, IPPROTO_TCP) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:231:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ TCPSocket *TCPServerSocket::accept() throw(SocketException) {
+                                      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:240:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void TCPServerSocket::setListen(int queueLen) throw(SocketException) {
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:248:24: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ UDPSocket::UDPSocket() throw(SocketException) : CommunicatingSocket(SOCK_DGRAM,
+                        ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:253:49: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ UDPSocket::UDPSocket(unsigned short localPort)  throw(SocketException) :
+                                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:260:6: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+      throw(SocketException) : CommunicatingSocket(SOCK_DGRAM, IPPROTO_UDP) {
+      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:273:30: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::disconnect() throw(SocketException) {
+                              ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:292:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:304:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short &sourcePort) throw(SocketException) {
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:318:61: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::setMulticastTTL(unsigned char multicastTTL) throw(SocketException) {
+                                                             ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:325:62: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::joinGroup(const std::string &multicastGroup) throw(SocketException) {
+                                                              ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:337:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::leaveGroup(const std::string &multicastGroup) throw(SocketException) {
+                                                               ^~~~~
+[ 64%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/network/tcp.cpp.o
+[ 66%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/lidar/quanergym8.cpp.o
+[ 68%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/ptzcam/ptzcam.cpp.o
+[ 70%] Building CXX object CMakeFiles/MUEAVISOFT_LIB.dir/system/network/udp.cpp.o
+[ 72%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/devices/radar/radar.cpp.o
+[ 74%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/debug.cpp.o
+In file included from /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/udp.hpp:13:0,
+                 from /home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/udp.cpp:11:
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:55:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   std::string getLocalAddress() throw(SocketException);
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:62:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   unsigned short getLocalPort() throw(SocketException);
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:70:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setLocalPort(unsigned short localPort) throw(SocketException);
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:81:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short localPort = 0) throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:96:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   static void cleanUp() throw(SocketException);
+                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:114:34: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   Socket(int type, int protocol) throw(SocketException);
+                                  ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:131:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException);
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:140:48: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void send(const void *buffer, int bufferLen) throw(SocketException);
+                                                ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:150:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   int recv(void *buffer, int bufferLen) throw(SocketException);
+                                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:157:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   std::string getForeignAddress() throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:164:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   unsigned short getForeignPort() throw(SocketException);
+                                   ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:167:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   CommunicatingSocket(int type, int protocol) throw(SocketException);
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:180:15: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   TCPSocket() throw(SocketException);
+               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:190:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:213:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:225:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       int queueLen = 5) throw(SocketException);
+                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:232:23: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   TCPSocket *accept() throw(SocketException);
+                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:235:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setListen(int queueLen) throw(SocketException);
+                                ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:247:15: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   UDPSocket() throw(SocketException);
+               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:254:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   UDPSocket(unsigned short localPort) throw(SocketException);
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:263:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw(SocketException);
+       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:270:21: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void disconnect() throw(SocketException);
+                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:283:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+             unsigned short foreignPort) throw(SocketException);
+                                         ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:296:44: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                unsigned short &sourcePort) throw(SocketException);
+                                            ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:303:52: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void setMulticastTTL(unsigned char multicastTTL) throw(SocketException);
+                                                    ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:310:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void joinGroup(const std::string &multicastGroup) throw(SocketException);
+                                                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/headers/socket.hpp:317:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void leaveGroup(const std::string &multicastGroup) throw(SocketException);
+                                                      ^~~~~
+[ 76%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/mathformat.cpp.o
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/devices/ptzcam/ptzcam.cpp: In member function ‘void ptzcam::setrawdata(unsigned char*)’:
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/devices/ptzcam/ptzcam.cpp:376:12: warning: ignoring return value of ‘void* realloc(void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+     realloc( this->raw_data, sizeof(char)*this->frame_height
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             *this->frame_width*3+4 );
+             ~~~~~~~~~~~~~~~~~~~~~~~~
+[ 78%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/file.cpp.o
+[ 80%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/system.cpp.o
+[ 82%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/common/visualizer_module.cpp.o
+[ 84%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/keyboard/key.cpp.o
+[ 86%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/curl.cpp.o
+[ 88%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/nas.cpp.o
+[ 90%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/pkg.cpp.o
+[ 92%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/socket.cpp.o
+[ 94%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/tcp.cpp.o
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:47:40: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ Socket::Socket(int type, int protocol) throw(SocketException) {
+                                        ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:80:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ std::string Socket::getLocalAddress() throw(SocketException) {
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:90:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ unsigned short Socket::getLocalPort() throw(SocketException) {
+                                       ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:100:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void Socket::setLocalPort(unsigned short localPort) throw(SocketException) {
+                                                     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:114:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short localPort) throw(SocketException) {
+                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:124:24: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void Socket::cleanUp() throw(SocketException) {
+                        ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:145:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : Socket(type, protocol) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:152:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short foreignPort) throw(SocketException) {
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:164:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:171:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:181:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:191:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ unsigned short CommunicatingSocket::getForeignPort() throw(SocketException) {
+                                                      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:204:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : CommunicatingSocket(SOCK_STREAM,
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:209:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : CommunicatingSocket(SOCK_STREAM, IPPROTO_TCP) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:219:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : Socket(SOCK_STREAM, IPPROTO_TCP) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:226:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) : Socket(SOCK_STREAM, IPPROTO_TCP) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:231:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ TCPSocket *TCPServerSocket::accept() throw(SocketException) {
+                                      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:240:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void TCPServerSocket::setListen(int queueLen) throw(SocketException) {
+                                               ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:248:24: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ UDPSocket::UDPSocket() throw(SocketException) : CommunicatingSocket(SOCK_DGRAM,
+                        ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:253:49: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ UDPSocket::UDPSocket(unsigned short localPort)  throw(SocketException) :
+                                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:260:6: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+      throw(SocketException) : CommunicatingSocket(SOCK_DGRAM, IPPROTO_UDP) {
+      ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:273:30: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::disconnect() throw(SocketException) {
+                              ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:292:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw(SocketException) {
+     ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:304:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     unsigned short &sourcePort) throw(SocketException) {
+                                 ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:318:61: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::setMulticastTTL(unsigned char multicastTTL) throw(SocketException) {
+                                                             ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:325:62: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::joinGroup(const std::string &multicastGroup) throw(SocketException) {
+                                                              ^~~~~
+/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/system/network/socket.cpp:337:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+ void UDPSocket::leaveGroup(const std::string &multicastGroup) throw(SocketException) {
+                                                               ^~~~~
+[ 96%] Building CXX object CMakeFiles/MUEAVISOFT_TEST.dir/system/network/udp.cpp.o
+[ 98%] Linking CXX shared library libMUEAVISOFT_LIB.so
+[ 98%] Built target MUEAVISOFT_LIB
+[100%] Linking CXX executable MUEAVISOFT_TEST
+[100%] Built target MUEAVISOFT_TEST

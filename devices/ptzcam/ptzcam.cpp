@@ -170,8 +170,8 @@ unsigned char* ptzcam::getjpgdata(){
 }
 
 unsigned char* ptzcam::getrawdata(){
-	pthread_mutex_lock(&this->pkgAccessMuxid);
-    pthread_mutex_unlock(&this->pkgAccessMuxid);
+	/*pthread_mutex_lock(&this->pkgAccessMuxid);
+    pthread_mutex_unlock(&this->pkgAccessMuxid);*/
     return this->raw_data;
 }
 
@@ -205,7 +205,7 @@ void ptzcam::capture_cv(){
 	ENTER_FUNC
 #endif
 	std::cout << this->getvideosource() << std::endl;
-	cv::VideoCapture cvcap(this->getvideosource().c_str());
+	cv::VideoCapture cvcap(this->getvideosource().c_str(),cv::CAP_GSTREAMER);
 #ifdef PRINT_FILE_LINE
 	FILE_LINE
 #endif
@@ -242,7 +242,11 @@ void ptzcam::capture_cvframe(){
 	ENTER_FUNC
 #endif
 	cv::Mat cvframe;
-	this->cv_cap >> cvframe;
+	//this->cv_cap >> cvframe;
+    this->cv_cap.grab();
+    while(!this->cv_cap.retrieve(cvframe)){
+        this->cv_cap.grab();
+    }
 	this->setcvframe(cvframe);
 #ifdef PRINT_FUNC
 	EXIT_FUNC
@@ -330,9 +334,14 @@ void ptzcam::cvframe2rawdata(){
 #ifdef PRINT_FUNC
 	ENTER_FUNC
 #endif
-	pthread_mutex_lock(&this->pkgAccessMuxid);
+	//pthread_mutex_lock(&this->pkgAccessMuxid);
+    /*realloc( this->raw_data, sizeof(char)*this->frame_height
+            *this->frame_width*3+4 );*/
 	memset( this->raw_data, '\0',
-            this->cv_frame.total()+4 );
+            sizeof(unsigned char)
+		   *this->frame_height
+		   *this->frame_width
+		   *3+4 );
     /*for (int i=3; i<this->frame_height+4; i++)
 	{
         for (int j=3; j<this->frame_width+4; j++)
@@ -347,8 +356,11 @@ void ptzcam::cvframe2rawdata(){
     }*/
     memcpy(&this->raw_data[4], this->cv_frame.data,
             //sizeof(unsigned char)*this->cv_frame.total());
-            this->cv_frame.elemSize()*this->cv_frame.total());
-	pthread_mutex_unlock(&this->pkgAccessMuxid);
+            sizeof(unsigned char)
+		   *this->frame_height
+		   *this->frame_width
+		   *3);
+	//pthread_mutex_unlock(&this->pkgAccessMuxid);
     this->raw_data_size = this->frame_height*this->frame_width*3+4;
 #ifdef PRINT_FUNC
 	EXIT_FUNC
@@ -361,9 +373,11 @@ void ptzcam::setrawdata(unsigned char* data){
     ENTER_FUNC
 #endif
     pthread_mutex_lock(&this->pkgAccessMuxid);
-    memset( this->raw_data, '\0',
-            sizeof(char)*this->frame_height
+    realloc( this->raw_data, sizeof(char)*this->frame_height
             *this->frame_width*3+4 );
+    /*memset( this->raw_data, '\0',
+            sizeof(char)*this->frame_height
+            *this->frame_width*3+4 );*/
     memcpy((char*)this->raw_data, (char*)data,
            sizeof(unsigned char)*this->frame_height*this->frame_width*3+4);
     pthread_mutex_unlock(&this->pkgAccessMuxid);

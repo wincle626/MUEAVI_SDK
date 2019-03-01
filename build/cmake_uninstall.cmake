@@ -1,9 +1,9 @@
-if(NOT EXISTS "/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/install_manifest.txt")
-    message(WARNING "Cannot find install manifest: \"/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/install_manifest.txt\"")
+if(NOT EXISTS "/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/install_manifest.txt")
+    message(WARNING "Cannot find install manifest: \"/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/install_manifest.txt\"")
     return()
 endif()
 
-file(READ "/home/mueavi-pc-01/HumanDrive/workspaces/vscodeworkspace/MUEAVI_SDK1/build/install_manifest.txt" files)
+file(READ "/home/mueavi-pc-01/workspaces/vscodeworkspace/MUEAVI_SDK2/build/install_manifest.txt" files)
 string(STRIP "${files}" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(REVERSE files)
